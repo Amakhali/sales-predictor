@@ -1,0 +1,27 @@
+gitignore
+# Data files
+*.csv
+*.xlsx
+*.parquet
+*.pickle
+
+# Except sample data
+!sample_data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Notebooks
+.ipynb_checkpoints
+
+# Environment
+.env
+venv/
+```
+
+## sample_data/sample_sales.csv
+```csv
+Date,Customer_ID,Product_ID,Quantity,Unit_Price,Sales_Revenue,Product_Description,Product_Category,Product_Line,Raw_Material,Region,Latitude,Longitude
+2023-01-01,1001,5001,2,49.99,99.98,Product A,Category 1,Line X,Material 1,North,42.5,-71.3
