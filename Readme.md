@@ -48,7 +48,7 @@ sales-predictor/
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sales-predictor.git
+git clone https://github.com/Amakhali/sales-predictor.git
 cd sales-predictor
 
 # Create a virtual environment
